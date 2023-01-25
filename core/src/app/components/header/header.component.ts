@@ -10,6 +10,8 @@ export class HeaderComponent implements OnInit {
   constructor() {
     this.headerTitle = 'Yay Header Works..';
   }
-
+  toggleTask() {
+    console.log('Clikedccccccc');
+  }
   ngOnInit(): void {}
 }
